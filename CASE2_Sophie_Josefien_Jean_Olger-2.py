@@ -60,7 +60,7 @@ fig.update_layout({'xaxis': {'title': {'text': 'Jaar'}},
                    'yaxis': {'title':{'text': 'Aantal vliegtuigongelukken'}},
                    'legend': {'title':{'text': 'Verloop van het aantal'}}})    
 fig.show()
-st.plotly_chart(fig)
+
 
 
 # In[9]:
@@ -83,7 +83,7 @@ fig.update_layout({'xaxis': {'title': {'text': 'Maand'}},
                    'yaxis': {'title':{'text': 'Aantal vliegtuigongelukken'}},
                    'legend': {'title':{'text': 'Aantal'}}})   
 fig.show()
-st.plotly_chart(fig)
+
 
 
 # In[11]:
