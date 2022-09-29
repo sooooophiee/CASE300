@@ -6,21 +6,20 @@
 
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import numpy as np
 import plotly.express as px
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 #from plotly.offline import plot
 from dash import dcc
-import plotly.express as px
 from jupyter_dash import JupyterDash
-from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
 from dash.dependencies import Input, Output, State
+
+
 
 # In[3]:
 
@@ -153,10 +152,6 @@ passangers_survived = ab_pass - passangers_fatal
 # In[25]:
 
 
-# imports
-import plotly.graph_objects as go
-import numpy as np
-
 # data
 labels = ['Fatalities', 'Survived']
 values = [total_fatal, total_survived]
@@ -227,9 +222,6 @@ groep3 = pd.DataFrame(groep3['Date'].count())
 # In[18]:
 
 
-from plotly.offline import plot
-
-
 # In[19]:
 
 
@@ -246,14 +238,6 @@ st.plotly_chart(fig)
 
 
 # !pip install jupyter-dash
-
-import plotly.express as px
-from jupyter_dash import JupyterDash
-from dash import dcc
-from dash import html
-from dash.dependencies import Input, Output
-from dash.dependencies import Input, Output, State
-
 
 
 # Build App
