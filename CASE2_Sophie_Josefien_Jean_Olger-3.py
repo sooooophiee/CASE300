@@ -316,7 +316,7 @@ def get_input(check_1, check_2):
 
 # Run app and display result inline in the notebook
 app.run_server(mode='inline')
-!streamlit run app.py
+streamlit run app.py
 
 # In[ ]:
 
