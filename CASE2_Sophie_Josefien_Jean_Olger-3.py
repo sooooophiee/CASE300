@@ -191,6 +191,7 @@ fig.update_layout({
         'buttons': dropdown_buttons}]})
 
 fig.show()
+st.plotly_chart(fig)
 
 
 # In[13]:
