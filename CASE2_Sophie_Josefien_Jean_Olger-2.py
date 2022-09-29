@@ -13,9 +13,14 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.offline import plot
+#from plotly.offline import plot
 from dash import dcc
-
+import plotly.express as px
+from jupyter_dash import JupyterDash
+from dash import dcc
+from dash import html
+from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 
 # In[3]:
 
