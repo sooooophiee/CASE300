@@ -5,3 +5,4 @@ plotly == 5.10.0
 dash == 2.6.2
 plotly-express == 0.4.1
 DateTime == 4.7
+jupyter-dash == 0.4.2
